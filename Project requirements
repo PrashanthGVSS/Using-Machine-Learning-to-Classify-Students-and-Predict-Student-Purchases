@@ -1,0 +1,9 @@
+Project requirements
+You'll work with Python 3 (or newer) for this Machine Learning for User Classification project, where you’ll need to prepare the following libraries:
+
+pandas
+matplotlib
+statsmodels
+scikit-learn
+numpy
+seaborn
