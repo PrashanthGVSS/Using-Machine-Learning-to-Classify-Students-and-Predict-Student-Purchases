@@ -1,0 +1,32 @@
+Modeling Insights:
+
+Logistic Regression:
+Provided baseline insights with a simple linear model.
+Highlighted the importance of features like practice_exams_passed and minutes_watched in predicting purchases.
+
+K-Nearest Neighbors (KNN):
+Achieved decent accuracy after hyperparameter tuning.
+Performed better on non-linear data patterns, especially with optimized neighbors and weighting schemes.
+
+Support Vector Machines (SVM):
+The best-performing kernel was RBF with 𝐶=10 C=10 and gamma=scale, suggesting non-linear decision boundaries suited the data better.
+SVM took longer to train but provided robust decision-making.
+
+Decision Tree:
+Provided interpretability through a visualized tree.
+The optimal ccp_alpha (e.g., 0.003) balanced the tree depth and accuracy, preventing overfitting.
+
+Random Forest:
+Using the optimal ccp_alpha from the Decision Tree, Random Forest delivered the best accuracy due to its ensemble approach.
+It handled feature importance effectively and was less sensitive to overfitting compared to single-tree models.
+
+
+
+Evaluation Metrics:
+Confusion Matrix:
+True Positive Rate (Recall) was highest in the Random Forest model, suggesting fewer false negatives.
+Precision, Recall, and F1-scores were balanced across classes in optimized models like SVM and Random Forest.
+
+Classification Reports:
+Logistic Regression and Decision Trees had lower precision and recall for the minority class.
+Ensemble methods (Random Forest) handled class imbalance better and gave the most reliable performance.
