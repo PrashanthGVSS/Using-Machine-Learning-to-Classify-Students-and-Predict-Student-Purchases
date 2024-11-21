@@ -1,0 +1,14 @@
+Conclusions:
+Best Model:
+The Random Forest Classifier with the optimal ccp_alpha was the best-performing model in terms of accuracy, precision, and recall. Its ensemble approach and feature handling were well-suited for the problem.
+
+Feature Importance:
+Features like practice_exams_passed, minutes_watched, and days_on_platform emerged as key predictors of user purchases.
+
+Business Implications:
+Users who spend more time on the platform and engage more with practice exams are more likely to purchase.
+Strategies focusing on increasing platform engagement (e.g., more interactive content, incentivized practice exams) could drive conversions.
+
+Future Enhancements:
+Further exploration of user-specific engagement patterns might help segment users for targeted marketing campaigns.
+Incorporating additional features (e.g., demographic data, session duration) might improve model performance further.
