@@ -20,8 +20,6 @@ Random Forest:
 Using the optimal ccp_alpha from the Decision Tree, Random Forest delivered the best accuracy due to its ensemble approach.
 It handled feature importance effectively and was less sensitive to overfitting compared to single-tree models.
 
-
-
 Evaluation Metrics:
 Confusion Matrix:
 True Positive Rate (Recall) was highest in the Random Forest model, suggesting fewer false negatives.
