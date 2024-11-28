@@ -1,6 +1,7 @@
 Conclusions:
 Best Model:
-The Random Forest Classifier with the optimal ccp_alpha was the best-performing model in terms of accuracy, precision, and recall. Its ensemble approach and feature handling were well-suited for the problem.
+The Random Forest Classifier with the optimal ccp_alpha was the best-performing model in terms of accuracy, precision, and recall. 
+Its ensemble approach and feature handling were well-suited for the problem.
 
 Feature Importance:
 Features like practice_exams_passed, minutes_watched, and days_on_platform emerged as key predictors of user purchases.
